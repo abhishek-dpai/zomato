@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.header-img {
+  position: relative;
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100vw;
+  height: 400px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://b.zmtcdn.com/data/images/order/home_page_bg.jpg?output-format=webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header {
+  width: 100vw;
+  height: 60px;
+}
+.nav-menu {
+  background-color: red;
+
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap-reverse; */
+  justify-content: center;
+  justify-content: space-around;
+}
+.zomato {
+  margin: 0;
+  display: inline;
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+}
+
+.nav-link {
+  display: inline;
+  color: white;
+  border-bottom: 0px solid black;
+  transition: border-bottom 0.3s;
+  cursor: pointer;
+}
+.create-account-button {
+  padding: 7px;
+  margin: 10px;
+  margin-left: 50px;
+  background-color: red;
+  justify-content: flex-end;
+  border: 1px solid white;
+}
+.create-account-button:hover {
+  opacity: 0.7;
+}
+.log-in {
+  justify-content: flex-end;
+}
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.location-search {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid rgb(63, 62, 62);
+}
+.search-btn {
+  background-color: green;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.para {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.download {
+  margin-top: 30px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+.info {
+  margin-left: 50px;
+}
+.app-link-btn {
+  margin-top: 5px;
+  background-color: rgb(228, 62, 33);
+  width: 230px;
+}
+/* .search-box {
+  background-color: white;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20;
+  padding-left: 20px;
+  outline: none;
+  font-weight: bold;
+  font-size: 20px;
+} */
