@@ -3,6 +3,34 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+.or {
+  border: none;
+  border-top: 1px groove #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  opacity: 0.3;
+  height: 5px;
+}
+
+.or:after {
+  background: #f4f4f2;
+  content: "OR";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+.footer-hr {
+  width: 110vh;
+  opacity: 0.2;
+}
+.license {
+  margin-left: 360px;
+  display: flex;
+  font-size: 9px;
+  opacity: 0.4;
 }
 .header-img {
   position: relative;
@@ -29,9 +57,9 @@ body {
   height: 60px;
 }
 .nav-menu {
-  background-color: red;
+  background-color: #e23744;
 
-  height: 5vh;
+  height: 6vh;
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap-reverse; */
@@ -39,10 +67,10 @@ body {
   justify-content: space-around;
 }
 .zomato {
-  margin: 0;
+  margin-top: 8px;
   display: inline;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 27px;
   color: white;
 }
 
@@ -54,12 +82,12 @@ body {
   cursor: pointer;
 }
 .create-account-button {
-  padding: 7px;
+  padding: 5px 20px;
   margin: 10px;
   margin-left: 50px;
-  background-color: red;
+  background-color: #e23744;
   justify-content: flex-end;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 .create-account-button:hover {
   opacity: 0.7;
@@ -80,6 +108,7 @@ body {
   background-color: green;
 }
 .container {
+  margin: 0 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,41 +141,117 @@ body {
 }
 .download {
   margin-top: 30px;
-  background-color: whitesmoke;
+  background-color: #f4f4f2;
   display: flex;
   justify-content: center;
 }
 .info {
   margin-left: 50px;
 }
+.logo-and-number {
+  display: flex;
+  flex-direction: column;
+}
 .app-link-btn {
   margin-top: 5px;
-  background-color: rgb(228, 62, 33);
-  width: 230px;
+  padding: 10px 10px;
+  background-color: #e23744;
+  width: 300px;
 }
 /* .search-box {
   background-color: white;
+  height: 50px;
+  width: 40vw;
   border: none;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20;
+  size: 100px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   padding-left: 20px;
   outline: none;
   font-weight: bold;
-  font-size: 20px;
-} */
-hr {
-  border: none;
-  border-top: 3px groove #333;
-  color: #333;
-  overflow: visible;
-  text-align: center;
-  height: 5px;
+  font-size: 40px;
 }
+.state-select {
+  height: 50px;
+  width: 200px;
+  font-size: large;
+} */
 
-hr:after {
-  background: whitesmoke;
-  content: "OR";
-  padding: 0 4px;
-  position: relative;
-  top: -13px;
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #2d2d2d;
+  color: white;
+}
+.footer1 {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  opacity: 0.7;
+}
+.footer2 {
+  margin-top: 30px;
+  margin: 0 200px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.7;
+  justify-content: space-evenly;
+}
+.footer3 {
+  margin-top: 30px;
+  margin-left: 230px;
+  margin-right: 180px;
+  display: flex;
+  opacity: 0.7;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.footer4 {
+  margin: 0 350px;
+  display: flex;
+  flex-direction: row;
+  opacity: 0.7;
+  justify-content: space-around;
+  align-content: center;
+}
+.left-list {
+  display: flex;
+  flex: 9;
+
+  color: white;
+}
+.right-list {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.footer-link-icon {
+  margin-left: 20px;
+}
+.para {
+  margin-left: 20px;
+}
+ul {
+  list-style-type: none;
+}
+.zomato-button {
+  margin-top: 10px;
+  background-color: #e23744;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 5px;
+  height: 70px;
+  width: 80px;
+}
+.lang {
+  margin-top: 10px;
+  background-color: #2d2d2d;
+  color: white;
+  height: 40px;
+  width: 200px;
+  font-size: larger;
+}
+.hide {
+  opacity: 0;
 }
