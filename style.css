@@ -103,7 +103,7 @@ body {
   justify-content: space-between;
 }
 .container {
-  margin: 0 350px;
+  margin: 40px 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -121,7 +121,7 @@ body {
 .details-heading {
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 24px;
 }
 .details-para {
   display: flex;
@@ -258,6 +258,9 @@ ul {
   top: 10%;
   left: 10%;
 } */
+.location-input-box {
+  border: 10px solid rgba(10, 10, 10, 0.5);
+}
 .location-input {
   position: relative;
   display: inline-block;
@@ -283,7 +286,7 @@ ul {
 }
 .location-input[type="text"] {
   background: #fff;
-  width: 740px;
+  width: 640px;
   height: 50px;
   border: none;
   outline: none;
@@ -292,10 +295,12 @@ ul {
 }
 .location-input[type="submit"] {
   position: relative;
-  left: -7px;
+  margin-left: -7px;
+  /* left: -7px;
+  right: 7px; */
   background: green;
   color: #fff;
-  width: 250px;
+  width: 200px;
   height: 50px;
   cursor: pointer;
   border: none;
